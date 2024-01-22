@@ -1,19 +1,30 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Mono:wght@200&family=Roboto:ital,wght@0,300;0,700;1,900&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,700;1,900&family=Stalinist+One&display=swap');
+
 
 body{
   background-color: #84cfe2;
+  
 }
 
 h1 {
   color: black;
-  font-family: 'Roboto Mono', monospace;
-  padding-left: 5px;
+  font-family: Raleway;
+  padding-left: 15px;
+  font-size: 30px;
+  text-align: center;
 
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img{
   width: 600px;
   height: 600px;
+  max-width: 100%;
 
 }
