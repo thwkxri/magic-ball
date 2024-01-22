@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Mono:wght@200&family=Roboto:ital,wght@0,300;0,700;1,900&family=Stalinist+One&display=swap');
+
+body{
+  background-color: #84cfe2;
+}
+
+h1 {
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  padding-left: 5px;
+
+}
+
+img{
+  width: 600px;
+  height: 600px;
+
+}
