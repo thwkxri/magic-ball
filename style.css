@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Protest+Riot&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   padding: 0;
@@ -93,7 +93,7 @@ body {
 }
 
 #send-info {
-  
+  font-family: "Roboto Condensed", sans-serif;
   margin: 0 auto;
   padding-top: 860px;
   font-size: 23px;
@@ -207,6 +207,7 @@ body {
   }
 
   #send-info {
+    font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
     padding-top: 1025px;
     font-size: 30px;
@@ -290,7 +291,7 @@ body {
 
   #send-info {
   
-    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
     padding-top: 950px;
     font-size: 23px;
@@ -371,9 +372,9 @@ body {
   }
 
   #send-info {
-    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
-    padding-top: 715px;
+    padding-top: 750px;
     font-size: 23px;
     text-align: justify;
     width: 90%;
@@ -480,7 +481,7 @@ body {
   }
 
   #send-info {
-    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
     padding-top: 715px;
     font-size: 20px;
@@ -570,7 +571,7 @@ body {
   }
 
   #send-info {
-    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
     padding-top: 520px;
     font-size: 18px;
@@ -660,9 +661,9 @@ body {
   }
 
   #send-info {
-    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
-    padding-top: 580px;
+    padding-top: 550px;
     font-size: 18px;
     text-align: justify;
     width: 90%;
