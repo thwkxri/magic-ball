@@ -294,7 +294,7 @@ body {
   #send-info {
     font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
-    padding-top: 990px;
+    padding-top: 950px;
     font-size: 30px;
     text-align: justify;
     width: 70%;
@@ -308,9 +308,9 @@ body {
   .ball {
     margin-top: 100px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     border-radius: 50%;
     width: 500px;
     height: 500px;
@@ -379,7 +379,7 @@ body {
   
     font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
-    padding-top: 1200px;
+    padding-top: 1000px;
     font-size: 24px;
     text-align: justify;
     width: 70%;
@@ -460,7 +460,7 @@ body {
   #send-info {
     font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
-    padding-top: 950px;
+    padding-top: 900px;
     font-size: 23px;
     text-align: justify;
     width: 70%;
@@ -571,7 +571,7 @@ body {
   #send-info {
     font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
-    padding-top: 700px;
+    padding-top: 650px;
     font-size: 22px;
     text-align: justify;
     width: 80%;
@@ -661,7 +661,7 @@ body {
   #send-info {
     font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
-    padding-top: 600px;
+    padding-top: 550px;
     font-size: 20px;
     text-align: justify;
     width: 90%;
@@ -751,7 +751,7 @@ body {
   #send-info {
     font-family: "Roboto Condensed", sans-serif;
     margin: 0 auto;
-    padding-top: 550px;
+    padding-top: 500px;
     font-size: 18px;
     text-align: justify;
     width: 90%;
