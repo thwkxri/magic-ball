@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
   <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="img/ф.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Калькулятор полных квадратных уравнений</title>
+  <title>Шар предсказаний</title>
 </head>
+
 <body>
-  <h1>Обновите страницу, чтобы воспользоваться калькулятором снова.</h1>
-  <div class="img">
-    <img src="img/ф.png" alt="">
+
+  <div class="container">
+    <h1 id="site-title">Шар предсказаний</h1>
+
+
+    <div class="ball">
+      <div id="circle-answers">
+
+      </div>
+      <div class="form">
+      <input id="input" type="text" placeholder="Задайте вопрос шару">
+      <button onclick="getAnswer();" id="send-button" type="submit">Отправить</button>
+      </div>
+      
+    </div>
+    <p id="send-info">Введите свой вопрос шару в поле ввода, затем нажмите кнопку "Отправить", для того, чтобы шар сгенерировал ответ на ваш вопрос.</p>
+    
+    
+    <div class="footer">
+      <p id="Copyright">Copyright &#xa9;2024 thwkxri</p>
+    </div>
+
   </div>
-  
+
 </body>
+
+</html>

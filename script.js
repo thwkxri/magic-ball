@@ -1,17 +1,18 @@
-alert('Это калькулятор полных квадратных уравнений во всплывающем окне. Для того, чтобы воспользоваться им еще раз - обновите страницу.')
-let a = Number(prompt('Введите коэффициент a: '));
-let b = Number(prompt('Введите коэффициент b: '));
-let c = Number(prompt('Введите коэффициент c: '));
-let D=b**2-4*a*c;
-if(D>0){
-  let x1=(-b+D**0.5)/(2*a);
-  let x2=(-b-D**0.5)/(2*a);
-  alert('D = ' + D + ', ' + 'первый корень: '+ x1 + ', ' + 'второй корень: '+ x2);
-}
-else if(D==0){
-  let x=(-b+D**0.5)/(2*a);
-  alert('D = ' + D + ', ' + 'корень: '+ x);
-}
-else{
-  alert('D = ' + D + ', ' +  'корней нет');
+function getAnswer() {
+  const answers = ["Определенно - да!", "Определенно - нет", "Скорее да, чем нет", "Скорее нет, чем да", "Возможно", "50/50", "Есть шансы", "100%", "Нет шансов", "Не уверен", "Глупый вопрос"];
+
+  const randomAnswer = answers[Math.floor(Math.random() * answers.length)];
+
+  const circleAnswers = document.getElementById('circle-answers');
+  circleAnswers.innerText = randomAnswer;
+
+  // Удаляем анимацию, если она уже есть
+  circleAnswers.style.animation = 'none';
+  void circleAnswers.offsetWidth; // Принудительный рефлоу, чтобы стили применились
+
+  // Задаем новую анимацию для вращения
+  circleAnswers.style.animation = 'rotate 3s cubic-bezier(0.32, 1.06, 0.68, 1)';
+
+  // Устанавливаем текстовое содержимое шара
+  circleAnswers.innerText = randomAnswer;
 }
