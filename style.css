@@ -391,9 +391,9 @@ body {
 @media (max-width: 780px) {
   .ball {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     width: 500px;
     height: 500px;
