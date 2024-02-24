@@ -489,9 +489,9 @@ body {
   }
 
   #Copyright {
-    top: 30%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -25%);
     position: absolute;
     text-align: center;
     font-size: 18px;
@@ -609,9 +609,9 @@ body {
     font-size: 18px;
     color: black;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     background-color: white;
     border-radius: 50%;
     width: 230px;
@@ -699,9 +699,9 @@ body {
     font-size: 18px;
     color: black;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     background-color: white;
     border-radius: 50%;
     width: 230px;
