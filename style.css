@@ -98,7 +98,7 @@ body {
   margin: 0 auto;
   padding-top: 860px;
   font-size: 23px;
-  text-align: justify;
+  text-align: left;
   width: 900px;
   padding-bottom: 100px;
 }
@@ -212,7 +212,7 @@ body {
     margin: 0 auto;
     padding-top: 900px;
     font-size: 30px;
-    text-align: justify;
+    text-align: left;
     width: 70%;
     padding-bottom: 50px;
     
@@ -297,7 +297,7 @@ body {
     margin: 0 auto;
     padding-top: 950px;
     font-size: 30px;
-    text-align: justify;
+    text-align: left;
     width: 70%;
     padding-bottom: 50px;
     
@@ -382,7 +382,7 @@ body {
     margin: 0 auto;
     padding-top: 850px;
     font-size: 24px;
-    text-align: justify;
+    text-align: left;
     width: 70%;
     padding-bottom: 50px;
   }
@@ -463,7 +463,7 @@ body {
     margin: 0 auto;
     padding-top: 900px;
     font-size: 23px;
-    text-align: justify;
+    text-align: left;
     width: 70%;
     padding-bottom: 50px;
   }
@@ -574,7 +574,7 @@ body {
     margin: 0 auto;
     padding-top: 625px;
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
     width: 80%;
     padding-bottom: 50px;
   }
@@ -664,7 +664,7 @@ body {
     margin: 0 auto;
     padding-top: 525px;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     width: 90%;
     padding-bottom: 50px;
   }
@@ -754,7 +754,7 @@ body {
     margin: 0 auto;
     padding-top: 500px;
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
     width: 90%;
     padding-bottom: 50px;
   }
