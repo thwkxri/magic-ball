@@ -15,4 +15,6 @@ function getAnswer() {
 
   // Устанавливаем текстовое содержимое шара
   circleAnswers.innerText = randomAnswer;
+
+  
 }

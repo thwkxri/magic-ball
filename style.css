@@ -68,7 +68,7 @@ body {
 
 #input {
   margin-top: 1450px;
-  height: 50px;
+  height: 40px;
   width: 400px;
   border-radius: 40px;
   font-size: 20px;
@@ -77,7 +77,7 @@ body {
 
 #send-button {
   margin: 10px;
-  height: 70px;
+  height: 55px;
   width: 250px;
   padding: 5px 10px;
   background: radial-gradient(circle, #7e57c2, #311b92);
@@ -182,7 +182,7 @@ body {
 
   #input {
     margin-top: 1425px;
-    height: 50px;
+    height: 40px;
     width: 400px;
     border-radius: 40px;
     font-size: 20px;
@@ -191,7 +191,7 @@ body {
 
   #send-button {
     margin: 10px;
-    height: 70px;
+    height: 55px;
     width: 250px;
     padding: 5px 10px;
     background: radial-gradient(circle, #7e57c2, #311b92);
@@ -267,7 +267,7 @@ body {
 
   #input {
     margin-top: 1425px;
-    height: 50px;
+    height: 40px;
     width: 400px;
     border-radius: 40px;
     font-size: 20px;
@@ -276,7 +276,7 @@ body {
 
   #send-button {
     margin: 10px;
-    height: 70px;
+    height: 55px;
     width: 250px;
     padding: 5px 10px;
     background: radial-gradient(circle, #7e57c2, #311b92);
@@ -295,7 +295,7 @@ body {
   #send-info {
     font-family: "EB Garamond", serif;
     margin: 0 auto;
-    padding-top: 950px;
+    padding-top: 900px;
     font-size: 30px;
     text-align: justify;
     width: 70%;
@@ -380,7 +380,7 @@ body {
   
     font-family: "EB Garamond", serif;
     margin: 0 auto;
-    padding-top: 780px;
+    padding-top: 740px;
     font-size: 24px;
     text-align: justify;
     width: 70%;
@@ -462,7 +462,7 @@ body {
   #send-info {
     font-family: "EB Garamond", serif;
     margin: 0 auto;
-    padding-top: 850px;
+    padding-top: 780px; 
     font-size: 23px;
     text-align: justify;
     width: 70%;
@@ -543,7 +543,7 @@ body {
   #send-info {
     font-family: "EB Garamond", serif;
     margin: 0 auto;
-    padding-top: 730px;
+    padding-top: 680px;
     font-size: 23px;
     text-align: justify;
     width: 70%;
@@ -654,7 +654,7 @@ body {
   #send-info {
     font-family: "EB Garamond", serif;
     margin: 0 auto;
-    padding-top: 600px;
+    padding-top: 570px;
     font-size: 22px;
     text-align: justify;
     width: 80%;
@@ -744,7 +744,7 @@ body {
   #send-info {
     font-family: "EB Garamond", serif;
     margin: 0 auto;
-    padding-top: 525px;
+    padding-top: 510px;
     font-size: 20px;
     text-align: justify;
     width: 90%;
@@ -834,7 +834,7 @@ body {
   #send-info {
     font-family: "EB Garamond", serif;
     margin: 0 auto;
-    padding-top: 480px;
+    padding-top: 450px;
     font-size: 18px;
     text-align: justify;
     width: 90%;
@@ -851,6 +851,18 @@ body {
     height: 60px;
     padding-bottom: 0;
   }
+
+  #Copyright {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+  }
+  
 }
 
 @media (max-height: 700px){
