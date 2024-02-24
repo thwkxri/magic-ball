@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Protest+Riot&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   padding: 0;
@@ -93,7 +94,7 @@ body {
 }
 
 #send-info {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "EB Garamond", serif;
   margin: 0 auto;
   padding-top: 860px;
   font-size: 23px;
@@ -207,7 +208,7 @@ body {
   }
 
   #send-info {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "EB Garamond", serif;
     margin: 0 auto;
     padding-top: 900px;
     font-size: 30px;
@@ -292,7 +293,7 @@ body {
   }
 
   #send-info {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "EB Garamond", serif;
     margin: 0 auto;
     padding-top: 950px;
     font-size: 30px;
@@ -501,9 +502,9 @@ body {
 
   .ball {
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -40%);
     border-radius: 50%;
     width: 350px;
     height: 350px;
