@@ -15,7 +15,9 @@ body {
   color: white;
 }
 
-
+a{
+  color: #fff;
+}
 
 #site-title {
   text-align: center;
@@ -123,7 +125,7 @@ body {
   transform: translate(-50%, -50%);
   position: absolute;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Oswald", sans-serif;
 }
 
@@ -879,7 +881,7 @@ body {
     position: absolute;
     text-align: center;
     width: 100%;
-    font-size: 15px;
+    font-size: 10px;
     font-family: "Oswald", sans-serif;
   }
 
